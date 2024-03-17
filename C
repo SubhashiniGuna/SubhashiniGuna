@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 typedef struct student 
 {
     int roll;
@@ -52,7 +53,7 @@ void name_sort(ST *p )
     {
         for(j=0;j<5-i-1;j++)
         {
-           if(p[j].name > p[j+1].name)
+           if(strcmp(p[j].name,p[j+1].name)>0)
            {
                ST temp=p[j];
                p[j]=p[j+1];

@@ -1,5 +1,5 @@
 #include <LPC21xx.H>
-#include "E:\v23ce5s9\SIVA\ARM\EMBEDDED\Header\4bit_lcd.h"
+#include "4bit_lcd.h"
 #define C0 (IOPIN0 &(1<<2))
 #define C1 (IOPIN0 &(1<<3))
 #define C2 (IOPIN0 &(1<<4))

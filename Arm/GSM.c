@@ -1,5 +1,5 @@
 #include<LPC21XX.H>
-#include"delay.h"
+#include"4bit lcd.h"
 
 #define NUMBER "+919488289487" // Define recipient phone number //In atd mode remove +91
 
